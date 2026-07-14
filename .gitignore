@@ -1,24 +1,43 @@
-# Compiled class file
-*.class
-
-# Log file
+```
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+*.unityproj
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.prefab
+*.meta
 *.log
 
-# BlueJ files
-*.ctxt
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.exe.config
+*.unity3d
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Dependencies
+Packages/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Editor files
+.vs/
+*.suo
+*.userosscache
+*.unity-test-report
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
